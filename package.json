@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "studio": "npx prisma studio",
     "prisma": "prisma db pull"
   },
   "dependencies": {
