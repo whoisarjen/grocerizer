@@ -5,8 +5,10 @@ const Home: NextPage = () => {
 	const { data } = useSession();
 	return (
 		<div>
+			<pre>{JSON.stringify(data)}</pre>
 			Home
 			<button onClick={() => signIn()}>Sign in</button>
+			<button onClick={() => signOut()}>Sign Out</button>
 		</div>
 	);
 };
