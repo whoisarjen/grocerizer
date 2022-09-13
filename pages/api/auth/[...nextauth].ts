@@ -15,6 +15,7 @@ export const authOptions = {
         }),
         // ...add more providers here
     ],
+    database: process.env.DATABASE_URL || '',
 }
 
 export default NextAuth(authOptions)
