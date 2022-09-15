@@ -4,10 +4,9 @@ import { useEffect } from "react";
 
 const Home: NextPage = () => {
 	const { data: session } = useSession();
-console.log(session)
 	useEffect(() => {
 		if (session?.error === "RefreshAccessTokenError") {
-			console.log('refreshed')
+			console.log("refreshed");
 			signIn(); // Force sign in to hopefully resolve error
 		}
 	}, [session]);
