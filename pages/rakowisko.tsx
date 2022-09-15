@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { trpc } from '../utils/trpc';
 
 const Rakowisko: NextPage = () => {
-    const user = trpc.useQuery(['user', { id: 'cl839q2440227ah0q8046240ov' }]);
+    const user = trpc.useQuery(['user', { id: 'cl839q2440227h0q8046240ov' }]);
     console.log(user)
     if (user.isLoading) {
       return <div>Loading...</div>;
