@@ -19,6 +19,7 @@
     "@trpc/react": "^9.27.2",
     "@trpc/server": "^9.27.2",
     "apollo-server-micro": "^3.10.2",
+    "cors": "^2.8.5",
     "graphql": "^16.6.0",
     "lodash": "^4.17.21",
     "micro": "^9.4.1",
@@ -30,6 +31,7 @@
     "zod": "^3.19.1"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.12",
     "@types/lodash": "^4.14.185",
     "@types/node": "18.7.17",
     "@types/react": "18.0.19",
